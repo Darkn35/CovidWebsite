@@ -1,0 +1,101 @@
+html {
+    font-family: Montserrat;
+    color: black;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navigation-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e40c2b;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.navigation-bar li {
+    float: left;
+}
+  
+.navigation-bar li a {
+    font-size: 18; 
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+  /* Change the link color to #111 (black) on hover */
+
+.navigation-bar li a:hover {
+    background-color: #F3F4F6;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/cvirus_parallax.jpg");
+  
+    /* Set a specific height */
+    height: 75%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Covid-19 , .PreventionSec {
+    background-color: #dec79b;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.imgfloat {
+    height: 175px ;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+}
+
+.SymptomsSec {
+    background-color: #850417;
+    color : whitesmoke;
+}
+
+#Symptoms ul , #Prevention ul {
+    list-style-type: none;
+}
+
+#Symptoms ul li , #Prevention ul li{
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#Symptoms p {
+    font-size: 25px;
+}
